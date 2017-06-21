@@ -1,15 +1,10 @@
-#include<iostream>
-#include<windows.h>
+ï»¿#include <iostream>
 
 using namespace std;
 
-int main(){
-    POINT p;
-    while(1){
-        GetCursorPos(&p);//»ñÈ¡Êó±ê×ø±ê
-        SetCursorPos(p.x+3,p.y);//¸ü¸ÄÊó±ê×ø±ê
-        Sleep(10);//¿ØÖÆÒÆ¶¯Ê±¼ä¼ä¸ô
-    }
-
+int main()
+{
+    cout << "Hello" << endl;
     return 0;
 }
+
